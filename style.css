@@ -15,6 +15,11 @@ body {
   background-color: var(--body-bg-color);
   margin-top: 50px;
   margin-left:30px;
+  background-image: url(assets/read_news.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50vw;
+  background-size: contain;
 }
 
 
@@ -23,9 +28,4 @@ body {
   padding-bottom: 92px;
 }
 
-#fundo {
-  display:flex;
-  flex-direction: row;
-  
 
-}
