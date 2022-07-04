@@ -7,6 +7,7 @@
 }
 * {
   margin: 0;
+  font-size: 14px;
 }
 body {
   font-family: Spartan, Work Sans; 
@@ -19,7 +20,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50vw;
-  background-size: contain;
+  background-size:cover;
 }
 
 
@@ -28,4 +29,52 @@ body {
   padding-bottom: 92px;
 }
 
+.titulo {
+  color: var(--title-color);
+  font-size: 24px;
+  font-family: sans-serif;
+}
 
+.subtitulo {
+  font-size: 14px;
+}
+
+p {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  box-sizing: 300px 38px;
+}
+
+#form-color {
+  color: var(--form-color);
+}
+
+#input-box {
+  width: 748px;
+  height: 48px;
+}
+
+#send {
+  position: right;
+}
+
+.input {
+  width: 100%;
+  border: var(--body-bg-color);
+  border-left: 5px solid #04D361;
+  outline: none;
+
+}
+
+#send {
+  border: 0;
+  border-left: white;
+  width: 50px;
+  height: 50px;
+  background-color: var(--bg-button-color);
+}
+
+
+.container {
+  display:flex;
+}
